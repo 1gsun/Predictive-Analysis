@@ -1,5 +1,5 @@
 
-## Big Data Term Project (Codes included are my sole contribution)
+## Big Data Term Project
 This is a the final project for big data class. I am one of the co-authors. 
 
 ## Data: 
