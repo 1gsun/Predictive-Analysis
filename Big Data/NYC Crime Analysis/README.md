@@ -1,25 +1,14 @@
 
-# DS-GA1004   
-# Big Data Term Project
+### Big Data Term Project
+This is a the final project for big data class. I am one of the co-authors. 
 
-### Authors:  
-Wenjie Sun (ws854)  
-Xinyan Yang (xy975)  
-Yaohan Ke (yk1587)  
+### Data: 
+NYPD Compliant Data Historic (https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i) 
 
-### Google Docs: 
-https://docs.google.com/a/nyu.edu/document/d/1Ucm_P7rkLDR4e1tl-qNADEEZ95wo1cWLxQVGxNa_RwQ/edit?usp=sharing
-
-## Please upload the data to your hadoop first: 
-
-**1. Download data:**  
-https://data.cityofnewyork.us/Public-Safety/NYPD-Complaint-Data-Historic/qgea-i56i
-
-**2. Upload the data to dumbo:**  
-cd "where you saved the data"  
+### Enviorment: 
+Codes are executed in PySpark enviorment.
+##### Command maybe usefule: 
 scp NYPD_Complaint_Data_Historic.csv YOUR_NETID@dumbo.es.its.nyu.edu:/home/YOUR_NETID
-
-**3. Put the data into hadoop:**  
 hadoop fs -copyFromLocal NYPD_Complaint_Data_Historic.csv 
 
 ## Run the code:
