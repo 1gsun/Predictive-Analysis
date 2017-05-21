@@ -7,7 +7,7 @@ NYPD Compliant Data Historic (https://data.cityofnewyork.us/Public-Safety/NYPD-C
 
 ## Enviorment: 
 Codes are executed in PySpark enviorment.
-#### Command maybe usefule: 
+### Command maybe usefule: 
 scp NYPD_Complaint_Data_Historic.csv YOUR_NETID@dumbo.es.its.nyu.edu:/home/YOUR_NETID
 hadoop fs -copyFromLocal NYPD_Complaint_Data_Historic.csv 
 spark-submit CODE_NAME.py /user/YOUR_NETIT/NYPD_Complaint_Data_Historic.csv  
